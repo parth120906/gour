@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Doctor Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Doctor Appointment System</h1>
+        <nav class="navbar">
+            <ul>
+                <li id="ghar"><a href="#home">Home</a></li>
+                <li id="res"><a href="#features">Features</a></li>
+                <li id="con"><a href="#contact">Contact Us</a></li>
+                <li id="login"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Book an Appointment with Trusted Doctors</h2>
+        <p>Find top-rated doctors near you and book an appointment with just a few clicks.</p>
+        <form action="/search" method="GET">
+            <input type="text"  placeholder="Search by specialty or doctor name" name="query" id="inp">
+            <button type="submit" id="btn">Search</button>
+        </form>
+    </section>
+
+    <section id="features">
+        <h2 id="txt">Why Choose Us?</h2>
+        <ul id="list">
+            <li class="fea">online booking</li>
+            <li class="fea">Trusted and verified doctors</li>
+            <li class="fea">Secure payment system</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Online Doctor Appointment System</p>
+    </footer>
+</body>
+</html>
